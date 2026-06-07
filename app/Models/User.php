@@ -29,4 +29,10 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+    // Tambahkan ini di dalam class User di app/Models/User.php
+
+    public function presensis()
+    {
+         return $this->hasMany(Presensi::class);
+    }
 }
