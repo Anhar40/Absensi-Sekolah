@@ -1,4 +1,4 @@
-// app/Models/SesiAbsen.php
+<?php
 
 namespace App\Models;
 
